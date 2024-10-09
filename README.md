@@ -1,6 +1,14 @@
 > [!NOTE]
 > There are no official builds as of Wed 9 Oct
 
+# uSwitch is a modern open source emulator written in C++, built for windows and macos (for now) made for convenience.
+
+
+
+
+
+
+
 
 ## Info For Contributors/Project Developers
 
