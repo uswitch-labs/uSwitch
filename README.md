@@ -5,4 +5,8 @@
 
 ## Discord
 
-Join our Discord community: [https://discord.gg/mz9JbugQZT](https://discord.gg/mz9JbugQZT)
+Join our Discord community: [Link](https://discord.gg/mz9JbugQZT)
+
+> [!NOTE]
+> There are no official builds as of Wed 9 Oct.
+
