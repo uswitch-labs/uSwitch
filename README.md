@@ -1,6 +1,6 @@
 
 > [!NOTE]
-> There are no official builds as of Wed 9 Oct
+> uSwitch is not affiliated with Nintendo in any way.
 
 ## uSwitch 
 
