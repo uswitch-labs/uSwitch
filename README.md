@@ -1,3 +1,14 @@
+    </a>
+    <a href="https://discord.com/invite/u77vRWY">
+        <img src="https://img.shields.io/discord/398318088170242053?color=5865F2&label=yuzu&logo=discord&logoColor=white"
+            alt="Discord">
+    </a>
+
+
+
+
+
+
 > [!NOTE]
 > There are no official builds as of Wed 9 Oct
 
