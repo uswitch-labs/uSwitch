@@ -1,4 +1,4 @@
-#include "./include/uswitchlabs/mainwindow.h"
+#include "uswitchlabs/mainwindow.h"
 #include <QApplication>
 #include <GL/gl.h>
 #include <GL/glu.h>
