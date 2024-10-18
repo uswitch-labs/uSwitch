@@ -3,6 +3,9 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <vulkan/vulkan.h>
+#include "./include/mainwindow.h"
+#include "./include/settingsdialog.h"
+
 
 int main(int argc, char *argv[])
 {
