@@ -11,21 +11,106 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>uSwitch Emulator</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  
+
+  <widget class="QWidget" name="centralwidget">
+   
+
+   <layout class="QVBoxLayout" name="verticalLayout">
+ 
+    <widget class="QLabel" name="displayLabel">
+     <property name="text">
+      <string>Emulator Display</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>640</width>
+       <height>480</height>
+      </size>
+     </property>
+    </widget>
+    
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <widget class="QPushButton" name="startButton">
+      <property name="text">
+       <string>Start</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pauseButton">
+      <property name="text">
+       <string>Pause</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stopButton">
+      <property name="text">
+       <string>Stop</string>
+      </property>
+     </widget>
+    </layout>
+    
+    <widget class="QPushButton" name="loadRomButton">
+     <property name="text">
+      <string>Load ROM</string>
+     </property>
+    </widget>
+    
+   </layout>
+  </widget>
+
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>24</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpenROM"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
   </widget>
+  
   <widget class="QStatusBar" name="statusbar"/>
+  
+  <action name="actionOpenROM">
+   <property name="text">
+    <string>Open ROM</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  
  </widget>
  <resources/>
  <connections/>
 </ui>
+
