@@ -8,6 +8,18 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
+void MainWindow::setRomDirectory() {
+    SettingsDialog settingsDialog(this);
+    settingsDialog.exec();
+    romDirectory = settingsDialog.getRomDirectory();
+    if (!romDirectory.isEmpty()) {
+        ui->statusbar->showMessage("ROM directory set to: " + romDirectory);
+        saveRomDirectory();
+        listRomFiles();
+    }
+}
+
+
 MainWindow::~MainWindow()
 {
     delete ui;
