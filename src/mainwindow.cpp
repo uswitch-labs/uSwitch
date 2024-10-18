@@ -1,5 +1,7 @@
 #include "./include/uswitchlabs/mainwindow.h"
-#include "./ui_mainwindow.h"
+#include "./include/mainwindow.h"
+#include "./include/settingsdialog.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
