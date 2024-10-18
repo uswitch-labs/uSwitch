@@ -1,1 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsDialog</class>
+ <widget class="QDialog" name="SettingsDialog">
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <widget class="QLabel" name="label">
+    <property name="text">
+     <string>Select ROM Directory:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="directoryLineEdit">
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectButton">
+    <property name="text">
+     <string>Select Directory</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="confirmButton">
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
 
